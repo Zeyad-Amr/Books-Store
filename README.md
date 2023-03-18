@@ -25,7 +25,7 @@ This is a sample website for a books store, built with React TypeScript, for pra
 - Fake JSON server
 
 ## Installation & Usage
-- Clone the repository: git clone https://github.com/your-username/book-store-app.git
+- Clone the repository: git clone https://github.com/Zeyad-Amr/Books-Store.git
 - Install dependencies & run:
 ```
 Frontend
