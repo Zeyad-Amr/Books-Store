@@ -58,9 +58,11 @@ export const insertBook = createAsyncThunk(
 export const deleteBook = createAsyncThunk(
   "books/deleteBook",
   async (data: Book, thunkApi) => {
-    const { rejectWithValue } = thunkApi;
+    const { rejectWithValue, dispatch } = thunkApi;
     try {
       await axios.delete("http://localhost:3005/books/" + data.id);
+
+      dispatch(getBooks());
       return data;
     } catch (error) {
       return rejectWithValue("Error while inserting book");
@@ -115,7 +117,9 @@ const bookSlice = createSlice({
       state.loading = false;
       state.error = "";
 
-      state.books = state.books.filter((book) => book.id !== action.payload.id);
+      // using dispatch(getBooks()) instead of this code
+      // in deleteBook thunk
+      // state.books = state.books.filter((book) => book.id !== action.payload.id);
     });
     builder.addCase(deleteBook.rejected, (state, action) => {
       state.loading = false;
