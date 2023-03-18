@@ -6,6 +6,7 @@ import { useAppDispatch } from "../../store";
 export interface BooksListProps {
   bookState: BooksState;
   authState: AuthState;
+  getBookId: (id: number) => void;
 }
 const BooksList = (props: BooksListProps) => {
   const dispatch = useAppDispatch();
@@ -26,7 +27,11 @@ const BooksList = (props: BooksListProps) => {
                 >
                   <div>{book.title}</div>
                   <div className="btn-group" role="group">
-                    <button type="button" className="btn btn-primary">
+                    <button
+                      type="button"
+                      className="btn btn-primary"
+                      onClick={() => props.getBookId(book.id)}
+                    >
                       Read
                     </button>
                     <button
