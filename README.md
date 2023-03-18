@@ -9,7 +9,7 @@ This is a sample website for a books store, built with React TypeScript, for pra
 
 ## Features
 ### Add Book
-- Users can add a new book to the book store by filling out the book information in the form and clicking "Add Book". The new book will be added to the list of books and persisted to the fake JSON server.
+- Users can add a new book to the book store by filling out the book information in the form and clicking "Submit". The new book will be added to the list of books and persisted to the fake JSON server.
 
 ### Delete Book
 - Users can delete a book from the book store by clicking the "Delete" button next to the book they want to remove. The book will be removed from the list of books and deleted from the fake JSON server.
