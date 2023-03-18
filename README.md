@@ -1,4 +1,4 @@
-# Books-Store
+# Books Store
 
 This is a sample website for a books store, built with React TypeScript, for practicing Redux Toolkit and fetching data from a third-party API. It includes the following features:
 
@@ -39,7 +39,3 @@ $ npm install
 $ npm start
 
 ```
-
-
-
-
