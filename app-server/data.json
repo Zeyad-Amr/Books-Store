@@ -1,0 +1,18 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Hobbit",
+      "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon.",
+      "author": "J.R.R. Tolkien",
+      "price": 29
+    },
+    {
+      "id": 2,
+      "title": "The Lord of the Rings",
+      "description": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling novels ever written, with over 150 million copies sold.",
+      "author": "J.R.R. Tolkien",
+      "price": 39
+    }
+  ]
+}
